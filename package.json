@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "lodash": "*",
+    "react": "*",
+    "react-dom": "*",
+    "enzyme": "*",
+    "enzyme-adapter-react-16": "*",
+    "redux": "*"
+  },
+  "scripts": {
+    "test": "jest --colors"
+  },
+  "jest": {
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
+  }
+}
